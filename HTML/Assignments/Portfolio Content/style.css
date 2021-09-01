@@ -9,7 +9,7 @@ h1 {
 body {
     background-color: grey;
 }
-img {
+#profile {
     width: 300px;
     margin-bottom: 20px;
 }
@@ -26,7 +26,4 @@ vertical-align: bottom;
     width: 500px;
     vertical-align: text-top;
     overflow-inline:
-}
-thead{
-    font-size: xx-large;
 }
