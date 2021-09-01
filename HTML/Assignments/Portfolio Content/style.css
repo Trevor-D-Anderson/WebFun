@@ -25,4 +25,8 @@ vertical-align: bottom;
     display: inline-block;
     width: 500px;
     vertical-align: text-top;
+    overflow-inline:
+}
+thead{
+    font-size: xx-large;
 }
