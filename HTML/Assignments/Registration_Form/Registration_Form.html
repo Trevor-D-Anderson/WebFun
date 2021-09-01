@@ -11,19 +11,19 @@
         <h1>Registration Form</h1>
     </Header>
     <form action="">
-        <label>First Name:</label>
+        <label>First Name:*</label>
         <input type="text" name = "First Name" placeholder="Your First Name">
         <div>
-            <label>Last Name:</label>
+            <label>Last Name:*</label>
             <input type="text" name = "Last Name" placeholder="Your Last Name">
         </div>
-        <label>Email Address:</label>
+        <label>Email Address:*</label>
         <input type="email" name = "Email Address" placeholder="Your Email">
         <div>
-            <label>Password:</label>
+            <label>Password:*</label>
             <input type="password" name = "Password" placeholder="Password">
         </div>
-        <label>Confirm Password:</label>
+        <label>Confirm Password:*</label>
         <input type="password" name = "Confirm Password" placeholder="Confirm Password">
         <div>
             <label>Birthday</label>
@@ -56,6 +56,10 @@
         <div>
             <input type="checkbox" name = "periodic emails" id = "periodic">
             <label>Yes, I would like to receive periodic emails</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <div>
+            <p>* Indicates a required field</p>
         </div>
     </form>
 </body>
