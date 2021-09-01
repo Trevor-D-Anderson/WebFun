@@ -1,7 +1,9 @@
 h1 {
-    background-color: aquamarine;
+    background-color: rgb(186, 214, 58);
     color: black;
+    width: 400px;
+    font-size: xxx-large;
 }
 body {
-    background-color: greenyellow;
+    background-color: grey;
 }
