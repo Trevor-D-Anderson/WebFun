@@ -18,19 +18,18 @@ width: 30px;
 vertical-align: bottom;
 
 }
-.links {
+.links{
     padding: 5px;
     display: inline-block;
     width: 500px;
     vertical-align: text-top;
-    overflow-inline:
 }
 #tag{
     border-style: solid; color: black;
     width: 50px;
     height: 40px;
     font-size: xx-large;
-    padding: 5px;S
+    padding: 5px;
     text-align: center;
     margin-block-start: 0px;
     background-color: blanchedalmond;
@@ -47,7 +46,7 @@ h2{
     padding-left: 5px;
     padding-bottom: 5px;
 }
-#tableName{S
+#tableName{
     margin-bottom: 10px;
     margin-top: 10px;
 }
