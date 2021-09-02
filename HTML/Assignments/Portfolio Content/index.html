@@ -10,19 +10,19 @@
 <body>
     <h1>Trevor Anderson</h1>
     <div>
-    <img id="profile" src= "Pics\IMG-20210726-WA0005.jpg" alt="Profile Picture">
+    <img id="profile" src= "Pics/IMG-20210726-WA0005.jpg" alt="Profile Picture">
     </div>
     <div class="links">
-        <img src="Pics\GitHub-Mark-64px.png" alt="Github">
+        <img src="Pics/GitHub-Mark-64px.png" alt="Github">
         <a href="https://github.com/Trevor-D-Anderson">My Github</a>
-        <img src="Pics\LI-In-Bug.png" alt="LinkedIn">
+        <img src="Pics/LI-In-Bug.png" alt="LinkedIn">
         <a href="www.linkedin.com/in/trevor-anderson-33b93021b">My LinkedIn</a>
-        <img src="Pics\420-4206658_email-icon-png-transparent-png.png" alt="Email">
+        <img src="Pics/420-4206658_email-icon-png-transparent-png.png" alt="Email">
         <a href="mailto:tbone101@gmail.com">tbone101@gmail.com</a>
     </div>
     <div class="table">
     <table>
-    <thead><h2 id = "table">Technologies</h2></thead>
+    <h2 id="tableName" >Technologies</h2>
     <tr>
         <th>Front-End</th>
         <th>Python</th>
@@ -58,6 +58,18 @@
         <p> Social Media App made in Python -   <a href="#">Code</a> &#x7C 
             <a href="#">Deployed</a></p>
     </div>
+    <form class="contact">
     <h2>Contact Me</h2>
+    <label class="boxes" for="name">Name:</label>
+    <input class="boxes" type="text" name = "name">
+    <label id="email" class="boxes" for="email">Email:</label>
+    <input class="boxes" type="email" name = "email">
+    <div class= "messageBox">
+        <label id="message" for="message">Message:</label>
+        <textarea name="message" cols="19" rows="3"></textarea>
+    </div>
+    <input id = "submit" type="submit" value="Send It!">
+    </form>
+    <footer></footer>
 </body>
 </html>
