@@ -1,14 +1,24 @@
 h1{
-background-color: black;
-font-family: cursive;
-color: white;
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
 }
 #cloud{
-color: turquoise;
+    color: turquoise;
 }
 h2{
+    background-color: purple;
+    color: snow;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
 
 }
 h3{
-
+    background-color: skyblue;
+    text-align: right;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: purple;
 }
