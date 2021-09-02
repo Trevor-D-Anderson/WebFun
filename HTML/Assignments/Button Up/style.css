@@ -1,0 +1,29 @@
+* {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#search{
+    border: 2px;
+    border-style: solid;
+    border-color: lightseagreen;
+    border-radius: 5px;
+    width: 100px;
+    color: lightseagreen;
+}
+#plus{
+    background-color: aquamarine;
+    color: azure;
+    border-radius: 50%;
+    border-color: aquamarine;
+    box-shadow: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#create{
+    color: azure;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    box-shadow: darkblue;
+    box-shadow: 2px 2px 2px darkblue;
+}
