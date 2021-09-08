@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Font/Roboto-Light.ttf) format('truetype');
+}
+.nav{
+    background-color: rgba(36, 33, 33, 0.767);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 95%;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+}
+.nav-title{
+    align-self: flex-end;
+    flex: 1;
+    margin-left: 5%;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    align-items: center;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+}
+.btn{
+    background-color: darkturquoise;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px darkblue;
+    width: 70px;
+    height: 22px;
+    color: whitesmoke;
+}
