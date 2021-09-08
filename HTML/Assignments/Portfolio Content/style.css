@@ -59,7 +59,7 @@ h2{
 label{
     margin-right: 10px;
 }
-#email{
+#emailAddress{
     margin-left: 10px;
 }
 .messageBox{
@@ -76,4 +76,8 @@ footer{
 }
 table, th, td {
     border: 1px solid black;
+}
+#title {
+    font-size: 28pt;
+    font-weight: bold;
 }
