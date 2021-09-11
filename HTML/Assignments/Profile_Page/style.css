@@ -82,7 +82,7 @@ body{
 }
 #profile {
     position: absolute;
-    top: 100px;
+    top: 85px;
     width: 100px;
     z-index: 1;
     margin: 40px;
@@ -90,7 +90,7 @@ body{
     border-radius: 50%;
 }
 #prof{
-    margin-top: 100px;
+    margin-top: 75px;
     margin-left: 40px;
 }
 .card img{
@@ -225,6 +225,7 @@ body{
 h3{
     color: rgb(165, 165, 165);
 }
-.words{
+.wordz{
     margin-top: 20px;
+    margin-left: 40px;
 }
