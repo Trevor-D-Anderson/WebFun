@@ -184,10 +184,13 @@ body{
 
 }
 .accept{
-    margin-left: 75px;
+    margin-left: 50px;
 }
 .person{
-    margin-right: 10px;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 16pt;
 }
 #conAlerts{
     padding-left: 10px;
@@ -212,4 +215,10 @@ body{
     margin-left: 25px;
     position: relative;
     top: 4px;
+}
+#philS{
+    margin-right: 15px;
+}
+#ed{
+    margin-left: 30px;
 }
