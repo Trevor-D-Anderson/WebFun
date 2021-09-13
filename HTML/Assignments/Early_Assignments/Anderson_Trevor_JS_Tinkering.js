@@ -1,8 +1,12 @@
-var arr = [];
-arr.push(1,2,3);
-var temp1 = arr[0];
-var temp2 = arr[arr.length-1];
-arr[0] = temp2;
-arr[arr.length-1] = temp1;
-
-console.log(arr)
+var arr = [2,4,6,8,-2,-5,4,9,-60]
+function positiveNegative(){
+    var positive = []
+    var negative = []
+for(var i = 0; i< arr.length; i++){
+    if(arr[i]<0){
+        negative.push(arr[i])
+    }
+}
+console.log(negative)
+}
+positiveNegative()   
