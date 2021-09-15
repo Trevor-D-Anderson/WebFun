@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 75%;
+    height: 50px;
+    color: oldlace;
+    background-color: black;
+}
+h1{
+    position: relative;
+    bottom: 5px;
+    margin: 10px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.avatar{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    height: 225px;
+}
+img{
+    width: 60px;
+    margin: 20px;
+}
+.boxes{
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.likeBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.likes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.words{
+margin: 0px;
+margin-left: 20px;
+}
+button{
+    margin: 15px;
+    width: 50px;
+    background-color: burlywood;
+}
+p{
+    margin-left: 20px;
+}
+.likesSpace{
+    width: 75px;
+}
